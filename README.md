@@ -67,10 +67,10 @@ The services_config.json` file should be structured as follows:
 Replace service1, service2, etc., with your service names, and health-check-url-1, health-check-url-2 with the corresponding health check URLs.
 
 
-##Logs
+## Logs
 Logs are stored in log directory. Log files are rotated based on size, as defined in the script.
 
-##Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 

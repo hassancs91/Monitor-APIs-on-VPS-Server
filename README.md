@@ -36,10 +36,9 @@ This project provides a script for monitoring the health of various web services
 
 4. Update the `services_config.json` with your service names and health check URLs.
 
+
 ### Usage
-
 Run the script manually:
-
     ```sh 
     ./check_apis.sh
 
@@ -48,13 +47,11 @@ Or set it up as a cron job to run automatically at your desired frequency.
 ### Configuring the Cron Job
 
 Edit your crontab:
-
     ```sh 
     crontab -e
 
 
 Add a line like the following to run the script every 2 minutes:
-
     ```sh 
     */2 * * * * /path/to/check_apis.sh
 
@@ -63,7 +60,6 @@ Add a line like the following to run the script every 2 minutes:
 ## Configuration
 
 The services_config.json` file should be structured as follows:
-
     ```json
         {
         "service_name1": "health-check-url-1",

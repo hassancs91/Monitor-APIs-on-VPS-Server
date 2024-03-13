@@ -27,10 +27,12 @@ This project provides a script for monitoring the health of various web services
    git clone [your-repo-url]
 
 2. Navigate to the script directory: 
-```cd [your-directory]
+```sh
+    cd [your-directory]
 
 3. Make the script executable:
-``` chmod +x check_apis.sh
+```sh 
+    chmod +x check_apis.sh
 
 4. Update the `services_config.json` with your service names and health check URLs.
 
@@ -38,7 +40,7 @@ This project provides a script for monitoring the health of various web services
 
 Run the script manually:
 
-``` ./check_apis.sh
+```sh ./check_apis.sh
 
 Or set it up as a cron job to run automatically at your desired frequency.
 
@@ -46,12 +48,12 @@ Or set it up as a cron job to run automatically at your desired frequency.
 
 Edit your crontab:
 
-``` crontab -e
+```sh crontab -e
 
 
 Add a line like the following to run the script every 2 minutes:
 
-``` */2 * * * * /path/to/check_apis.sh
+```sh */2 * * * * /path/to/check_apis.sh
 
 
 
